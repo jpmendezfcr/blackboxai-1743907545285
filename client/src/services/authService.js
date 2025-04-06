@@ -1,7 +1,7 @@
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const API_URL = 'https://api.love/api';
+const API_URL = 'https://api.loveavi.com';
 
 class AuthService {
   async login(email, password) {
